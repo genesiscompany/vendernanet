@@ -51,10 +51,16 @@ const COLORS = [
     label: "Verde Menta",
     hex: "#A8DADC",
     studio:
-      "https://customer-assets.emergentagent.com/job_44d84243-0a37-4ed6-9aef-3d66d47ecb25/artifacts/w9tgtvcp_mskug2h7y3tvwr5cb9ksk3ktv3er_original.webp",
-    lifestyle: [
-      "https://customer-assets.emergentagent.com/job_44d84243-0a37-4ed6-9aef-3d66d47ecb25/artifacts/w9tgtvcp_mskug2h7y3tvwr5cb9ksk3ktv3er_original.webp",
-    ],
+      "https://customer-assets.emergentagent.com/job_chinelo-atacado/artifacts/afuq1v6g_mskug2h7y3tvwr5cb9ksk3ktv3er_original.webp",
+    lifestyle: [],
+  },
+  {
+    id: "marinho",
+    label: "Azul Marinho",
+    hex: "#1E3A5F",
+    studio:
+      "https://customer-assets.emergentagent.com/job_chinelo-atacado/artifacts/7nc244jh_hn9y3xc6p5gc57cbxpmrsh7dbrbf_original.webp",
+    lifestyle: [],
   },
 ];
 
