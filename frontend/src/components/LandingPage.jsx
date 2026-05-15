@@ -20,6 +20,8 @@ import {
   Star,
   ArrowDown,
   Check,
+  Smartphone,
+  Download,
 } from "lucide-react";
 
 const WHATSAPP_NUMBER = "5511942377344"; // +55 (11) 94237-7344
@@ -597,6 +599,62 @@ export default function LandingPage() {
             <CreditCard className="w-10 h-10" />
             <h3 className="font-display text-2xl uppercase mt-4">PIX ou Cartão</h3>
             <p className="mt-2 text-sm text-neutral-300">Pagamento simples e seguro confirmado pelo WhatsApp.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* APP SECTION — QR Code */}
+      <section className="bg-black text-white border-b-2 border-black py-20 md:py-28 px-4 md:px-8 relative overflow-hidden" data-testid="app-section">
+        <div className="absolute inset-0 opacity-10 pointer-events-none" style={{backgroundImage: 'radial-gradient(circle, #25D366 1px, transparent 1px)', backgroundSize: '24px 24px'}} />
+        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center relative">
+          <div>
+            <div className="inline-flex items-center gap-2 bg-[#25D366] text-black border-2 border-[#25D366] px-3 py-1 text-xs font-bold uppercase tracking-[0.2em]">
+              <Smartphone className="w-3 h-3" /> Novidade
+            </div>
+            <h2 className="font-display text-5xl md:text-7xl lg:text-8xl uppercase leading-[0.85] mt-5">
+              Você também<br />
+              pode fazer<br />
+              o pedido pelo<br />
+              <span className="bg-[#25D366] text-black px-3 inline-block">nosso app</span>
+            </h2>
+            <p className="mt-6 text-lg md:text-xl text-neutral-300 max-w-lg">
+              Baixe gratuitamente, faça seus pedidos em segundos e acompanhe entregas direto do celular.
+            </p>
+            <div className="mt-8 flex flex-col sm:flex-row gap-4">
+              <a
+                href="https://play.google.com/store/apps/details?id=br.gotaxi.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="app-playstore-button"
+                className="btn-brutal inline-flex items-center gap-3 bg-[#25D366] text-black hover:bg-[#1DA851] hover:text-white border-2 border-[#25D366] px-6 py-4 font-bold uppercase tracking-wider text-sm shadow-[6px_6px_0px_0px_#FDE047]"
+              >
+                <Download className="w-5 h-5" /> Baixar na Play Store
+              </a>
+              <div className="flex items-center gap-3 border-2 border-white/30 px-4 py-3">
+                <Smartphone className="w-5 h-5 text-[#FDE047]" />
+                <p className="text-sm">
+                  <span className="text-[#FDE047] font-bold uppercase tracking-wider">Aponte a câmera</span><br />
+                  <span className="text-neutral-400 text-xs">e escaneie o QR ao lado</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex justify-center lg:justify-end">
+            <div className="relative">
+              <div className="absolute -inset-3 bg-[#25D366] -z-0" />
+              <div className="relative bg-white border-2 border-black p-4 md:p-6 shadow-[12px_12px_0px_0px_#FDE047]">
+                <img
+                  src="https://customer-assets.emergentagent.com/job_chinelo-atacado/artifacts/qzw254y8_qrcode-play.png"
+                  alt="QR Code para baixar o app na Play Store"
+                  className="w-64 h-64 md:w-80 md:h-80 object-contain block"
+                  data-testid="app-qrcode"
+                />
+                <p className="mt-3 text-center text-black font-bold uppercase tracking-[0.2em] text-xs border-t-2 border-black pt-3">
+                  Aponte • Escaneie • Baixe
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
