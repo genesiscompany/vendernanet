@@ -1,0 +1,142 @@
+{
+  "theme": "light",
+  "archetype": "Swiss & High-Contrast (Editorial Premium + Vibrant Energy)",
+  "design_concept": "A shocking, modern, editorial-meets-brutalist e-commerce landing page. We mix massive typography, stark 1px or 2px black borders (neo-brutalist), and overlapping bento grids to frame the product as a premium, fashion-forward piece. Vibrant CTA buttons (WhatsApp Green) break the monochrome structure to drive conversion.",
+  "colors": {
+    "background": "#FDFBF7",
+    "surface": "#FFFFFF",
+    "text_primary": "#0A0A0A",
+    "text_secondary": "#525252",
+    "border": "#0A0A0A",
+    "accent_cta": "#25D366",
+    "accent_hover": "#1DA851",
+    "highlight_yellow": "#FDE047",
+    "product_beige": "#D4C7B8",
+    "product_pink": "#F4C4C4",
+    "product_mint": "#A8DADC"
+  },
+  "typography": {
+    "heading_font": "'Bebas Neue', sans-serif",
+    "body_font": "'Manrope', sans-serif",
+    "heading_classes": "font-black tracking-normal uppercase",
+    "body_classes": "font-medium tracking-normal leading-relaxed",
+    "hierarchy": {
+      "h1": "text-6xl md:text-8xl lg:text-[10rem] leading-[0.85]",
+      "h2": "text-5xl md:text-7xl leading-none",
+      "h3": "text-3xl md:text-4xl",
+      "h4": "text-xl md:text-2xl",
+      "body": "text-base md:text-lg",
+      "small": "text-sm uppercase tracking-[0.2em] font-bold"
+    }
+  },
+  "layout_spacing": {
+    "general_padding": "p-6 md:p-12 lg:p-24",
+    "grid_gap": "gap-4 md:gap-8",
+    "bento_border": "border-2 border-black",
+    "bento_shadow": "shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]",
+    "container_max": "max-w-7xl mx-auto"
+  },
+  "components": {
+    "button_secondary": "bg-white text-black hover:bg-neutral-100 transition-colors px-6 py-3 uppercase tracking-wider font-bold text-sm border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] active:translate-y-1 active:shadow-none",
+    "button_whatsapp": "bg-[#25D366] text-black hover:bg-[#1DA851] transition-all px-8 py-5 uppercase tracking-wider font-bold text-xl border-2 border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] flex items-center justify-center gap-3 w-full active:translate-y-1 active:shadow-none",
+    "card": "bg-white border-2 border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] p-6 md:p-8",
+    "input": "w-full border-2 border-black bg-white px-4 py-4 text-lg focus:ring-0 focus:outline-none focus:bg-[#FDFBF7] transition-colors placeholder:text-neutral-500 rounded-none",
+    "radio_button": "cursor-pointer border-2 border-black px-4 py-3 text-center font-bold transition-all peer-checked:bg-black peer-checked:text-white hover:bg-neutral-100",
+    "color_swatch": "w-12 h-12 rounded-full border-2 border-black cursor-pointer shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] transition-transform hover:scale-110"
+  },
+  "media": {
+    "product_images": [
+      {
+        "color": "bege",
+        "url": "https://customer-assets.emergentagent.com/job_44d84243-0a37-4ed6-9aef-3d66d47ecb25/artifacts/622mnwkw_huwj4828w1k8gb8n5sfy689pcfyg_1024_1024.webp",
+        "type": "studio"
+      },
+      {
+        "color": "rosa_claro",
+        "url": "https://customer-assets.emergentagent.com/job_44d84243-0a37-4ed6-9aef-3d66d47ecb25/artifacts/fz129y61_mmnp6ybft8t77rr7y6y25zx08ry9_1024_1024.webp",
+        "type": "studio"
+      },
+      {
+        "color": "bege",
+        "url": "https://customer-assets.emergentagent.com/job_44d84243-0a37-4ed6-9aef-3d66d47ecb25/artifacts/p13v85ak_42g754qwfw4evw5tfr3ndvvdbeq5_original.webp",
+        "type": "lifestyle_praia"
+      },
+      {
+        "color": "verde_menta",
+        "url": "https://customer-assets.emergentagent.com/job_44d84243-0a37-4ed6-9aef-3d66d47ecb25/artifacts/w9tgtvcp_mskug2h7y3tvwr5cb9ksk3ktv3er_original.webp",
+        "type": "lifestyle_piscina"
+      },
+      {
+        "color": "bege",
+        "url": "https://customer-assets.emergentagent.com/job_44d84243-0a37-4ed6-9aef-3d66d47ecb25/artifacts/niogyqnl_g1usgnxu3mbt603fm5h7g357t2hf_original.webp",
+        "type": "lifestyle_estudio"
+      }
+    ],
+    "avatars": [
+      {
+        "url": "https://images.unsplash.com/photo-1712876610564-3b5a629388e2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2OTF8MHwxfHNlYXJjaHwzfHxicmF6aWxpYW4lMjBwZXJzb24lMjBwb3J0cmFpdCUyMHNtaWxlfGVufDB8fHx8MTc3ODg2NTczMHww&ixlib=rb-4.1.0&q=85",
+        "description": "Woman yellow shirt"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1536548665027-b96d34a005ae?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2OTF8MHwxfHNlYXJjaHwyfHxicmF6aWxpYW4lMjBwZXJzb24lMjBwb3J0cmFpdCUyMHNtaWxlfGVufDB8fHx8MTc3ODg2NTczMHww&ixlib=rb-4.1.0&q=85",
+        "description": "Man blue shirt"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1535643302794-19c3804b874b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2OTF8MHwxfHNlYXJjaHwxfHxicmF6aWxpYW4lMjBwZXJzb24lMjBwb3J0cmFpdCUyMHNtaWxlfGVufDB8fHx8MTc3ODg2NTczMHww&ixlib=rb-4.1.0&q=85",
+        "description": "Man white shirt"
+      }
+    ]
+  },
+  "sections_guidelines": {
+    "header": {
+      "layout": "Sticky top-0 w-full bg-[#FDFBF7]/90 backdrop-blur-md border-b-2 border-black flex justify-between items-center px-6 py-4 z-50",
+      "elements": "Logo 'VENDER NA NET' in massive typography, right side 'COMPRAR AGORA' secondary button linking to product section."
+    },
+    "hero": {
+      "layout": "Grid cols-1 lg:grid-cols-2 min-h-[90vh] border-b-2 border-black overflow-hidden bg-[#FDFBF7]",
+      "left_col": "Flex flex-col justify-center p-6 md:p-16 border-b-2 lg:border-b-0 lg:border-r-2 border-black relative",
+      "right_col": "Relative w-full h-[50vh] lg:h-auto overflow-hidden",
+      "content": "Huge H1 'O LUXO DO CONFORTO', subtext 'Chinelos EVA Embossado direto da fábrica.', Badge floating 'Frete Grátis > R$100'. Right col displays the 'lifestyle_estudio' beige image occupying full space with object-cover."
+    },
+    "product_configurator": {
+      "layout": "Max-w-7xl mx-auto my-16 p-6",
+      "wrapper": "Grid cols-1 lg:grid-cols-2 border-2 border-black shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] bg-white overflow-hidden",
+      "gallery_side": "border-b-2 lg:border-b-0 lg:border-r-2 border-black bg-[#F4F4F4] relative flex items-center justify-center p-8",
+      "form_side": "p-8 md:p-12 flex flex-col gap-8",
+      "logic": "React state to hold selected color. Gallery updates image based on color selected (bege, rosa_claro, verde_menta). Quantity selector buttons [-] [1] [+]. Size grid [35-36] [37-38] [39-40]. Form fields for Nome, Endereço, Payment Method. Price updates based on quantity (1=69.90, 2=89.90, 3+=...). Submit generates WhatsApp message."
+    },
+    "benefits_bento": {
+      "layout": "Max-w-7xl mx-auto my-24 p-6",
+      "heading": "H2 'POR QUE É O MELHOR?' mb-12",
+      "grid": "Grid cols-1 md:grid-cols-3 gap-6",
+      "cards": [
+        "Card 1: Solado Grosso (Col-span-1 md:col-span-2) bg-black text-white p-8 border-2 border-black",
+        "Card 2: Antiderrapante (Col-span-1) bg-white border-2 border-black p-8 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]",
+        "Card 3: Leveza EVA (Col-span-1) bg-white border-2 border-black p-8 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]",
+        "Card 4: Praia e Casa (Col-span-1 md:col-span-2) bg-[#FDE047] border-2 border-black p-8 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]"
+      ]
+    },
+    "testimonials": {
+      "layout": "bg-black text-white py-24 px-6 border-y-2 border-black",
+      "content": "H2 'O QUE DIZEM' in white. Grid of 3 brutalist cards with white backgrounds, black text, and black borders inside the black section. Images are round."
+    },
+    "faq": {
+      "layout": "Max-w-4xl mx-auto py-24 px-6",
+      "style": "H2 'DÚVIDAS FREQUENTES'. Accordion items with thick 2px black bottom borders. Question text in H4 font-bold."
+    },
+    "footer": {
+      "layout": "bg-black text-[#FDFBF7] py-16 px-6 text-center border-t-2 border-black",
+      "content": "Huge text 'VENDER NA NET'. vendernanet.com.br. Legal links."
+    }
+  },
+  "instructions_to_main_agent": [
+    "You MUST build this strictly adhering to the Brutalist/High-Contrast Editorial design style. DO NOT use generic soft shadows; ONLY use the hard solid shadows specified (e.g. shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]).",
+    "Install 'lucide-react' for icons.",
+    "Import Google Fonts: 'Bebas Neue' for headings and 'Manrope' for body in index.html or index.css.",
+    "Do NOT use a backend for ordering. The main CTA MUST be a standard anchor or programmatic window.open to `https://wa.me/5511942377344?text=...`.",
+    "The WhatsApp message must be dynamically constructed capturing all user inputs (Color, Size, Quantity, Total Price, Name, Address, Payment Method).",
+    "Price Logic: 1 unit = R$69,90, 2 units = R$89,90. If Quantity > 2, add R$44,95 for each additional unit (or maintain the bundle ratio). Free shipping text if total > 100.",
+    "Implement an image gallery in the product configurator that changes the displayed image depending on the color selected by the user. Fallback to a lifestyle image if studio image is not available for a specific color.",
+    "Add 'data-testid' to EVERY form input, button, and interactive element."
+  ]
+}
