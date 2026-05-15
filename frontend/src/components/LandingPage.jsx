@@ -68,6 +68,13 @@ const COLORS = [
 
 const SIZES = ["35-36", "37-38", "39-40"];
 
+// Lifestyle images shown as thumbnails for ALL colors (visual variety)
+const SHARED_LIFESTYLE = [
+  "https://customer-assets.emergentagent.com/job_44d84243-0a37-4ed6-9aef-3d66d47ecb25/artifacts/p13v85ak_42g754qwfw4evw5tfr3ndvvdbeq5_original.webp",
+  "https://customer-assets.emergentagent.com/job_44d84243-0a37-4ed6-9aef-3d66d47ecb25/artifacts/w9tgtvcp_mskug2h7y3tvwr5cb9ksk3ktv3er_original.webp",
+  "https://customer-assets.emergentagent.com/job_44d84243-0a37-4ed6-9aef-3d66d47ecb25/artifacts/niogyqnl_g1usgnxu3mbt603fm5h7g357t2hf_original.webp",
+];
+
 const TESTIMONIALS = [
   {
     name: "Carla M.",
@@ -123,10 +130,13 @@ export default function LandingPage() {
   const [payment, setPayment] = useState("pix");
 
   const gallery = useMemo(() => {
-    const arr = [selectedColor.studio, ...selectedColor.lifestyle].filter(
-      Boolean
-    );
-    return arr.length ? arr : [selectedColor.studio];
+    const arr = [
+      selectedColor.studio,
+      ...selectedColor.lifestyle,
+      ...SHARED_LIFESTYLE,
+    ].filter(Boolean);
+    // dedupe to avoid showing the same image twice (bege case)
+    return Array.from(new Set(arr));
   }, [selectedColor]);
 
   const total = useMemo(() => calcPrice(quantity), [quantity]);
